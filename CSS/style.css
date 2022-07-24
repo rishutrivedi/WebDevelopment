@@ -1,0 +1,23 @@
+/* div{
+    background-color: blueviolet;
+} */
+#products{
+    background-color: burlywood;
+}
+ /* #products .product,#todayfashion .product{
+    background-color:rgb(255,0,255);
+    background-color:rgb(75%,25%,15%); */
+#products .product{
+    /* background-color:rgb(255,0,255); */
+    /* background-color:rgb(75%,25%,15%); */
+    background: #ff0000;
+}
+#todayfashion .product{
+    background-color:rgb(100,150,200);
+}
+body{
+    font-size: 21px;
+}
+#deal{
+    font-size: 3em;
+}
