@@ -1,0 +1,31 @@
+var products =[
+    {
+        productId:1,
+        productImage:"./image./redmi.jfif",
+        brand:"MI",
+        price:"12000",
+        catagory:"mobiles",
+    },
+    {
+        productId:2,
+        productImage:"./image./samsung.jfif",
+        brand:"samsung",
+        price:"12000",
+        catagory:"mobiles",
+    },
+    {
+        productId:3,
+        productImage:"./image./iphone.jfif",
+        brand:"iphone",
+        price:"12000",
+        catagory:"mobiles",
+    },
+    {
+        productId:4,
+        productImage:"./image./oneplus.jfif",
+        brand:"oneplus",
+        price:"12000",
+        catagory:"mobiles",
+    }
+    ];
+    

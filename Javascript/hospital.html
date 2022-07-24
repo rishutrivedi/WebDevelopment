@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HospitalForm</title>
+    <style>
+        table{
+            background-color: rgb(203, 206, 208);
+        }
+        p{
+            font-size: 25px;
+        }
+     #radius {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <p >Request Routine Detan<br>Appointment Form</p>
+    <table>
+    <form id="hform" method="post">
+        <tr>
+            <td><label for="fname">Name:</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="fname" name="fname" placeholder="First"></td>
+            <td><input type="text" id="lname" name="lname" placeholder="Last"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td> <label for="email">Email*:</label><br></td>
+        </tr>
+        <tr>
+            <td><input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" ></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="dbirth">Date of Birth:</label></td>
+            <td><lebel for="doa">Date of Appointment</lebel></td>
+        </tr>
+        <tr>
+            <td><input type="date" placeholder="DD/MM/YY" id="dbirth" name="dbirth" /></td>
+            <td><input type="date" id="doa" name="doa" /></td>
+        </tr>
+        <tr>
+            <td><lebel for="toa">Time of Appointment</lebel></td>
+        </tr>
+        <tr>
+            <td><input type="time" id="toa" name="toa" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">Do you require dental surgery?</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="surgery" id="surgery" value="Yes"/>Yes </td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="surgery" id="surgery" value="No"/> No</td>
+        </tr>
+        <tr>
+            <td colspan="2">Have you visited our dental clinic before?</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="visit" id="visit" value="Yes"/>Yes</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="visit" id="visit" value="No"/>No</td>
+        </tr>
+        <tr>
+            <td colspan="2">Have you experienced dental illness/surgeries in the past?</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="experience" id="experience" value="Yes"/>Yes</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="experience" id="experience" value="No"/>  No</td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td colspan="2"  id="radius"><input type="submit" value="SUBMIT FORM"/> </td>
+        </tr>
+    </tfoot>
+    </form>
+</table>
+</body>
+</html>
+<script src="./hospital.js"></script>
